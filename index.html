@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesomne -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="/style.css" />
+    <title>Comfy House</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fa fa-bars"></i>
+        </span>
+        <img src="./images/logo.svg" alt="store logo" />
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fa fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav bar -->
+    <!-- hero -->
+
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Furniture collection</h1>
+        <button class="banner-btn">Shop Now</button>
+      </div>
+    </header>
+    <!-- end hero -->
+    <!-- products -->
+    <section class="products">
+      <div class="section-title">
+        <h2>Our Products</h2>
+      </div>
+      <div class="products-center">
+        <!-- single products -->
+        <!-- <article class="product">
+            <div class="img-container">
+              <img
+                src="./images/product-1.jpeg"
+                alt="product-1"
+                class="product-img"
+              />
+              <button class="bag-btn" data-id="1">
+                <i class="fa fa-shopping-cart"></i>
+                add to bag
+              </button>
+            </div>
+            <h3>queen bed</h3>
+            <h4>$156</h4>
+          </article> -->
+        <!-- end single products -->
+      </div>
+    </section>
+    <!-- end products -->
+
+    <!-- cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fa fa-window-close"></i>
+        </span>
+        <h2>Your cart</h2>
+        <div class="cart-content">
+          <!-- cart item -->
+          <div class="cart-item">
+            <img src="./images/product-1.jpeg" alt="product-1" />
+            <div>
+              <h4>Queen bed</h4>
+              <h5>$9</h5>
+              <span class="remove-item">remove</span>
+            </div>
+            <div>
+              <i class="fa fa-chevron-up"></i>
+              <p class="item-amount">&nbsp; 1</p>
+              <i class="fa fa-chevron-down"></i>
+            </div>
+          </div>
+          <!-- end cart item -->
+        </div>
+        <div class="cart-footer">
+          <h3>Your Total: $ <span class="cart-total"> 0 </span></h3>
+          <button class="clear-cart banner-btn">Clear cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- end cart -->
+    <!-- custom js -->
+    <script src="/app.js"></script>
+  </body>
+</html>
